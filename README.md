@@ -152,7 +152,7 @@
 
 ![](pic/PIC007.PNG)
 
-*ссылка на коммит*
+[*ссылка на коммит*](https://github.com/smyity/13.3_Terraform-s_management/commit/aae942c42abc86061ff1484d27abac4baf05dd65)
 
 ------
 
