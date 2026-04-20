@@ -143,6 +143,7 @@
 ├── [count-vm.tf](task4/count-vm.tf)\
 ├── *[disk_vm.tf](task4/disk_vm.tf)\
 ├── [for_each-vm.tf](task4/for_each-vm.tf)\
+├── [inventory.tftpl](task4/inventory.tftpl)\
 ├── [locals.tf](task4/locals.tf)\
 ├── *[main.tf](task4/main.tf)\
 ├── [providers.tf](task4/providers.tf)\
