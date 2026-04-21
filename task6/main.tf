@@ -69,8 +69,9 @@ resource "local_file" "inventory" {
 
 ## ---Запуск ansible playbook--- ##
 resource "null_resource" "ansible" {
-  # запуск ansible после того, как ВМ будет готова
+  # запуск ansible после того, как будет готов файл inventory.ini
+  depends_on = [local_file.inventory]
   provisioner "local-exec" {
-    command = "ansible-playbook -i inventory.ini install_docker.yml.yml"
+    command = "sleep 60 && ansible-playbook -i inventory.ini install_docker.yml"
   }
 }
