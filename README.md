@@ -183,7 +183,9 @@
 
 ### Решение 5*
 
-*здесь должно быть что-то*
+[outputs.tf](task5/outputs.tf)
+
+![](pic/PIC008.PNG)
 
 ------
 
@@ -206,7 +208,22 @@
 
 ### Решение 6*
 
-*здесь должно быть что-то*
+.\
+├── cloud-init.yml\
+├── [install_docker.yml](task6/install_docker.yml)\
+├── [inventory.tftpl](task6/inventory.tftpl)\
+├── [locals.tf](task6/locals.tf)\
+├── [main.tf](task6/main.tf)\
+├── [providers.tf](task6/providers.tf)\
+└── [variables.tf](task6/variables.tf)
+
+![](pic/PIC009.PNG)
+
+Проверка:
+
+![](pic/PIC010.PNG)
+
+[*ссылка на коммит*](https://github.com/smyity/13.3_Terraform-s_management/commit/d26b9423790e69b24c0cd26b481374b04e1a57aa#diff-39261ad49361770a6bb90a2523712eb84bf5922adedbd443ff23a0e695ce15ec)
 
 ------
 
