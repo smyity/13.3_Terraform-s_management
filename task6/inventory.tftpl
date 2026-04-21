@@ -1,0 +1,4 @@
+[cloud_vm]
+%{ for i in cloud_vm ~}
+${i["name"]}   ansible_host=%{ if use_ext_ip }${i["network_interface"][0]["nat_ip_address"]}%{ else }${i["network_interface"][0]["ip_address"]}%{ endif } ansible_user=${vm_user} ansible_ssh_private_key_file=~/.ssh/ssh-key-1759501063847 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+%{ endfor ~}
